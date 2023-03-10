@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 
-import imp
-
-
 if __name__ == "__main__":
     """calcutes according to arguments given.
     Note only +, -, *, / are functional. also to numbers
