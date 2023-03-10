@@ -17,16 +17,16 @@ if __name__ == "__main__":
     b = int(sys.argv[3])
 
     if sys.argv[2] == '+':
-        result = cal.add(int(sys.argv[1], int(sys.argv[3])))
+        result = cal.add(a, b)
         print(f"{a} + {b} = {result}")
     elif sys.argv[2] == '-':
-        result = cal.sub(int(sys.argv[1], int(sys.argv[3])))
+        result = cal.sub(a, b)
         print(f"{a} - {b} = {result}")
     elif sys.argv[2] == '*':
-        result = cal.mul(int(sys.argv[1], int(sys.argv[3])))
+        result = cal.mul(a, b)
         print(f"{a} * {b} = {result}")
     elif sys.argv[2] == '/':
-        result = cal.div(int(sys.argv[1], int(sys.argv[3])))
+        result = cal.div(a, b)
         print(f"{a} / {b} = {result}")
     else:
         print("Unknown operator. Available operators: +, -, * and /")
